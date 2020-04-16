@@ -1,0 +1,25 @@
+{
+  "name": "@react-native-advanced/vector-icons",
+  "version": "1.0.0",
+  "description": "React Native Advanced hook for installing vector icons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhdeck/react-native-advanced-vector-icons.git"
+  },
+  "author": "Ray Deck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhdeck/react-native-advanced-vector-icons/issues"
+  },
+  "homepage": "https://github.com/rhdeck/react-native-advanced-vector-icons#readme",
+  "peerDependencies": {
+    "react-native-vector-icons": "^6.6.0"
+  },
+  "dependencies": {
+    "@raydeck/react-native-utilities": "^1.0.3"
+  }
+}
