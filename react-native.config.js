@@ -4,8 +4,23 @@ const {
 } = require("@raydeck/react-native-utilities");
 const { join } = require("path");
 const { readFileSync, writeFileSync } = require("fs");
-
-const defaultFonts = ["MaterialCommunityIcons.ttf", "MaterialIcons.ttf"];
+const defaultFonts = [
+  "AntDesign.ttf",
+  "Entypo.ttf",
+  "EvilIcons.ttf",
+  "Feather.ttf",
+  "FontAwesome.ttf",
+  "FontAwesome5_Brands.ttf",
+  "FontAwesome5_Regular.ttf",
+  "FontAwesome5_Solid.ttf",
+  "Foundation.ttf",
+  "Ionicons.ttf",
+  "MaterialIcons.ttf",
+  "MaterialCommunityIcons.ttf",
+  "SimpleLineIcons.ttf",
+  "Octicons.ttf",
+  "Zocial.ttf",
+];
 const defaultApply =
   'apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"';
 module.exports = {
